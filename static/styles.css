@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Niconne&family=Oswald:wght@500&family=Pacifico&family=Press+Start+2P&display=swap');
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: Arial, Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+  	flex-direction: column;
+  	background-color: black;
+}
+
+/* Website Title */
+.container{
+	padding: 30px;
+	position: relative;
+	/*background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
+	animation: change-gradient 10s ease-in-out infinite;
+	background-size: 500% 500%;*/
+    background-repeat: no-repeat;
+    background-size: 1550px;
+    background-image:linear-gradient( #05080157, #0508012b), url(https://www.enjpg.com/img/2020/among-us-computer-8.webp);
+
+}
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+/*imposter heading*/
+
+.container-heading{
+    margin: 0;
+    font-size: 15rem;
+    text-align: center;
+    height: 90vh;
+    line-height: 100vh;
+    color: #fcedd8;
+    /* background: #d52e3f; */
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #c11a2b, 15px 15px 0px #efa032, 20px 20px 0px #46b59b, 25px 25px 0px #017e7f, 30px 30px 0px #052939, 35px 35px 0px #052937, 40px 40px 0px #052937, 45px 45px 0px #052937;
+}
+}
+/*imposter heading ends*/
+/*
+.container span{
+    color: #D74894;
+}
+*/
+
+.description p{
+    font-style: italic;
+    font-size: 14px;
+    font-color: #00ff00;
+    margin: 0;
+}
+
+/* Text Area */
+.ml-container{
+    margin: 40px 0;
+	flex: 1 0 auto;
+	background-repeat: no-repeat;
+	background-size: 1650px 300px;
+	/*background-image:url(https://i.pinimg.com/originals/14/f4/85/14f485c95f8b62e50e374fa3ddb7ffce.gif); */
+	background-image:url(	https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f51018b1-ca89-4862-aa69-6c0cf3caf6c7/de5ump5-441f4bf0-b8ab-47b3-9e5c-645060b1816b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y1MTAxOGIxLWNhODktNDg2Mi1hYTY5LTZjMGNmM2NhZjZjN1wvZGU1dW1wNS00NDFmNGJmMC1iOGFiLTQ3YjMtOWU1Yy02NDUwNjBiMTgxNmIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dAlTbTno5rPL1OKTxmNmDWLoV57E-7nnYtpaGX33xDw
+);
+
+
+}
+
+.message-box{
+    margin-bottom: 20px;
+}
+
+/* Predict Button */
+.my-cta-button{
+    border: 2px solid #03e9f4;
+    border-radius: 1000px;
+    padding: 10px 36px;
+    color: #03e9f4;
+    display: inline-block;
+    font: bold 20px/1 "Raleway", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background-color: transparent;
+    border-block-start-style: none;
+}
+
+.my-cta-button:hover{
+    background: #03e9f4;
+    color: #050801;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    -webkit-box-shadow: 10px 10px 64px 18px rgba(99,239,240,1);
+
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+}
+
+
+/* Footer */
+.footer{
+    font-size: 14px;
+    padding: 20px;
+    /* flex-shrink: 0; */
+    position: relative;
+    background: linear-gradient(45deg, #02e2ae, #92cec0, #76cfbb,#57c9af, #53cfb3, #3fcdad);
+    background-size: 500% 500%;
+    /* animation: change-gradient 10s ease-in-out infinite; */
+}
+
+.contact-icon{
+	color: #000000;
+	padding: 7px;
+}
+
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+.footer-description{
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Lora', serif;
+}
+
+/* Result */
+.results{
+    padding: 30px 0 0;
+	flex: 1 0 auto;
+	background-color: #fcdf64;
+}
+
+.pred{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-shadow:
+     3px  3px 0 #fff,
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+
+/* fake news output text*/
+.danger{
+    color: #c11a2b;
+    font-family: "Press Start 2P";
+    -webkit-animation: danger-glowing 1300ms infinite;
+    -moz-animation: danger-glowing 1300ms infinite;
+    -o-animation: danger-glowing1300ms infinite;
+    animation: danger-glowing 1300ms infinite;
+}
+
+
+@-webkit-keyframes danger-glowing{
+     0% {
+          color: #c11a2b;
+          text-shadow: 0 3px 3px #c11a2b;
+          -webkit-text-shadow: 0 0 3px #c11a2b;
+        }
+     50% {
+          color: #f36d6d;
+          -webkit-text-shadow: 0 0 15px #f36d6d;
+        }
+     100% {
+          color: #c11a2b;
+          -webkit-text-shadow: 0 0 3px #c11a2b;
+        }
+      }
+
+@keyframes danger-glowing {
+     0% {
+    color: #c11a2b;
+    text-shadow: 0 0 3px #c11a2b;
+        }
+    50% {
+        color: #f36d6d;
+        text-shadow: 0 0 15px #f36d6d;
+        }
+    100% {
+        color: #c11a2b;
+        text-shadow: 0 0 3px #c11a2b;
+        }
+    }
+
+
+/* fake  news output text over*/
+
+/* Real news output text*/
+
+@-webkit-keyframes glowing {
+     0% {
+          color: #03C03C;
+          text-shadow: 0 3px 3px #03C03C;
+          -webkit-text-shadow: 0 0 3px #03C03C;
+        }
+     50% {
+          color: #7FFF00;
+          -webkit-text-shadow: 0 0 15px #7FFF00;
+        }
+     100% {
+          color: #03C03C;
+          -webkit-text-shadow: 0 0 3px #03C03C;
+        }
+      }
+
+@keyframes glowing {
+     0% {
+          color: #03C03C;
+          text-shadow: 0 0 3px #03C03C;
+          text-shadow:
+             3px  3px 0 #fff,
+            -1px -1px 0 #fff,
+             1px -1px 0 #fff,
+            -1px  1px 0 #fff,
+             1px  1px 0 #fff;
+        }
+     50% {
+          color: #7FFF00;
+          text-shadow: 0 0 15px #7FFF00;
+          text-shadow:
+             3px  3px 0 #fff,
+            -1px -1px 0 #fff,
+             1px -1px 0 #fff,
+            -1px  1px 0 #fff,
+             1px  1px 0 #fff;
+        }
+     100% {
+          color: #03C03C;
+          text-shadow:  0 0 3px #03C03C;
+        }
+      }
+
+.safe{
+    color: #03C03C;
+    font-family: "Press Start 2P";
+    -webkit-animation: glowing 1300ms infinite;
+    -moz-animation: glowing 1300ms infinite;
+    -o-animation: glowing 1300ms infinite;
+    animation: glowing 1300ms infinite;
+}
+/* Real news output text over*/
+.fakegif{
+	width: 45%;
+}
+
+.realgif{
+	width: 70%;
+}
+
+/*subtitle fake news detector line*/
+.fake-news-detector{
+    font-family: 'Pacifico', cursive;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+    color: #fff;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+/*glow*/
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 3px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+  }
+}
+
+.aim{
+    color : white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    background: -webkit-linear-gradient(white, #567ca6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.amongus{
+    margin: 0;
+	background-color:#7e8890;
+		}
+
